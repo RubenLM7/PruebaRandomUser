@@ -1,0 +1,1 @@
+package com.rubenlozano.prueba.data.datasource.remote.responsedata class UsersResponse(    val results: List<UserResult>,    val info: Info,)

@@ -1,0 +1,1 @@
+package com.rubenlozano.prueba.utils.navigationimport cafe.adriel.voyager.navigator.Navigatorimport kotlinx.coroutines.flow.SharedFlowtypealias NavigatorArgs = Navigator.() -> Unitinterface AppNavigatorHandler {    val uiNavigator: SharedFlow<NavigatorArgs>}

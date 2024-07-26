@@ -1,0 +1,1 @@
+package com.rubenlozano.prueba.domain.usecaseimport com.rubenlozano.prueba.data.model.Userimport kotlinx.coroutines.flow.Flowinterface UsersUseCase {    operator fun invoke(): Flow<List<User>>}

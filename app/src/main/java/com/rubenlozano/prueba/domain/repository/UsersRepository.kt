@@ -1,0 +1,1 @@
+package com.rubenlozano.prueba.domain.repositoryimport com.rubenlozano.prueba.data.model.Userimport kotlinx.coroutines.flow.Flowinterface UsersRepository {    fun getAllUser(): Flow<List<User>>}
